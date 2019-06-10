@@ -35,9 +35,9 @@ window.addEventListener('load', () => {
     remoteVideosEl: 'remote-videos',
     // immediately ask for camera access
     autoRequestMedia: true,
-    debug: false,
+    debug: true,
     detectSpeakingEvents: true,
-    autoAdjustMic: false,
+    autoAdjustMic: true,
   });
 
   // We got access to local camera
